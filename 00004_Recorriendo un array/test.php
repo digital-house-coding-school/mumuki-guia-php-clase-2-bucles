@@ -14,8 +14,11 @@ public function testDescriptionExample(): void {
   $array3 = [4, 8, 15];
   $resul3 = $this->bucles($array3);
   
-  $this->assertTrue($resul3 == 27, "La suma de 4, 8 y 15 debería ser 27);
+  $this->assertTrue($resul3 == 27, "La suma de 4, 8 y 15 debería ser 27");
   
+  $cantFors = substr_count($sol, "for");
+  
+  $this->assertTrue($cantFors > 0, "Parecería que no escribiste ningún for...");
 }
 
 private /*...content...*/
