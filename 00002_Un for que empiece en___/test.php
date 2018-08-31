@@ -2,7 +2,7 @@ public function testDescriptionExample(): void {
   $sol = '/*...content...*/';
   
   $resultados = $this->bucles();
-  
+  var_dump($resultados);
   $this->assertTrue(count($resultados) === 6, 'El array no tiene 6 elementos');
  
   $i = 5;
