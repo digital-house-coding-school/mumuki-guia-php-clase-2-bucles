@@ -2,6 +2,7 @@ public function testDescriptionExample(): void {
   $sol = '/*...content...*/';
   
   $resultado = $this->bucles();
+  var_dump(count($resultado));exit;
   
   $this->assertTrue(count($resultados) == 11, 'Eh wacho, no hay 11 elementos en la lista...');
   
