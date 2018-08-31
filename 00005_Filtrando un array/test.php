@@ -17,8 +17,6 @@ public function testDescriptionExample(): void {
   $funciona == $funciona && count($res3) == 4;
   
   $this->assertTrue($funciona, "El filtro no estaría funcionando bien");
-  
-  $this->assertTrue(true);
 }
 
 private /*...content...*/
