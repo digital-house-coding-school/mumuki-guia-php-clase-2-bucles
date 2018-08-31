@@ -3,5 +3,5 @@ function bucles() {
     
     //Escribí tu solución acá!
     
-    return resultado;
+    return $resultado;
 }
