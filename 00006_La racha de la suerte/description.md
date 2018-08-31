@@ -8,5 +8,8 @@ Por ejemplo, un array que diga `[5, 5, 5, 4, 3, 2, 6]` significa que primero sal
 
 Esta función debe devolver cuantas veces consecutivas aparece el número 5 comenzando desde la primera posición del array.
 
-Por supuesto, que para esto, queremos que utilices la estructura del **while**
+Por supuesto, que para esto, queremos que utilices la estructura del **while**. ¡Ojo que para recorrer un array con un while vamos a tener que simular nuestra variable `$i` sin la estructura del for!
+
 No olvides modificar la condición del **while** dentro del bucle para no caer en un ciclo infinito
+
+¿Por donde empezar? Acá abajo hay una pista :point_down:
