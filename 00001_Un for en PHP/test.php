@@ -1,3 +1,7 @@
 public function testDescriptionExample(): void {
-  $this->assertTrue(true);
+  $sol = '/*...content...*/';
+  
+  var_dump($this->bucles());exit;
 }
+
+private /*...content...*/
