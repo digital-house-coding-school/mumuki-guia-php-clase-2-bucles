@@ -5,6 +5,7 @@ public function testDescriptionExample(): void {
   ];
   
   $this->debug($testing);
+  $this->assertTrue(false, "No hay ningún exit en el camino...");
 }
 
 /*...content...*/
