@@ -3,5 +3,5 @@ function bucles($numeros) {
   
   // Acá va tu código
   
-  return $resulado;
+  return $resultado;
 }
