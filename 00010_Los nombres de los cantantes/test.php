@@ -62,6 +62,9 @@ public function testDescriptionExample(): void {
   }
   
   $this->assertTrue($nombresOK, "Si bien la cantidad de nombres es correcta, los nombres en sí no están bien");
+  
+  $this->assertTrue(substr_count($sol, "foreach") > 0, "No utilizaste un foreach");
+  $this->assertTrue((substr_count($sol, "for ") + substr_count($sol, "for(")) == 0, "No deberías haber utilizado un for");
 }
 
 private /*...content...*/
