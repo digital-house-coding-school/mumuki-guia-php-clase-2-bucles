@@ -26,6 +26,7 @@ public function testDescriptionExample(): void {
   
   foreach ($nombres as $nombre) {
     $nombresOK = $nombresOK && $nombre == $cantantes[$i]["nombre"];
+    $i++;
   }
   
   $this->assertTrue($nombresOK, "Si bien la cantidad de nombres es correcta, los nombres en sí no están bien");
@@ -57,6 +58,7 @@ public function testDescriptionExample(): void {
   
   foreach ($nombres as $nombre) {
     $nombresOK = $nombresOK && $nombre == $cantantes[$i]["nombre"];
+    $i++;
   }
   
   $this->assertTrue($nombresOK, "Si bien la cantidad de nombres es correcta, los nombres en sí no están bien");
