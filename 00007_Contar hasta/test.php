@@ -22,6 +22,10 @@ public function testDescriptionExample(): void {
   }
   
   $this->assertTrue($funciona, "Oops. La función no esta contando bien");
+  
+  $trampa = substr_count($sol, "for") > 0;
+  
+  $this->assertTrue($trampa, "No queremos que utilices ningún for en este ejercicio");
 }
 
 private /*...content...*/
